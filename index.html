@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="soPall">
+<head>
+
+  <!-- Scripts -->
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="app/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <link rel='stylesheet' type='text/css' href='app/js/styles/style.css'></link>
+
+  <!-- app -->
+  <script src="app/js/app.js"></script>
+  <!-- services -->
+  <!-- controllers -->
+  <script src="app/js/controllers/mainController.js"></script>
+  <!-- filters -->
+
+  <title>SoPall</title>
+  <base href="/">
+</head>
+
+
+  <body ng-controller="MainCtrl" >
+      <div class="header-container">
+        <div class="sopall-header">SoPaLL</div>
+        <div class="click-through-container">
+          <div class="click-through>">About</div>
+          <div class="click-through>">Developers</div>
+          <div class="click-through>">Support</div>
+        </div>
+      </div>
+
+      <ui-view></ui-view>
+
+
+
+
+
+  </body>
+</html>

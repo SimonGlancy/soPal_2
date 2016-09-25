@@ -1,0 +1,22 @@
+<div class="presentation-area-confirm">
+  <div class="add-phone-number">Please add your mobile phone number</div>
+
+
+
+
+
+
+  <div class="control-panel" ng-controller='MainCtrl'>
+    <div class="input-area">
+      <form novalidate class="simple-form" ng-submit="addPhoneNumber(formData); formData = {}" >
+        <input class="form-control" type="text" ng-model="formData" placeholder="Phone number"/>
+
+        <button class="form-button" type="submit" ui-sref="complete">Add</button>
+      </form>
+
+  </div>
+  </div>
+
+  <div class="warning">*Phone number must be linked to a bank account</div>
+
+</div>
